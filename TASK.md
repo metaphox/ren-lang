@@ -1,6 +1,6 @@
 # TASK.md — Ren Compiler Implementation
 
-**Status:** Phase 1 (Lexer) complete ✅  
+**Status:** Phase 1 (Lexer) ✅ · Phase 2 (Parser) ✅  
 **Language:** Go  
 **Spec:** See `SPEC.md` (v0.1)
 
@@ -53,7 +53,7 @@ Tokens to handle:
 - Delimiters: `{`, `}`, `(`, `)`, `[`, `]`, `,`, `:`, `.`, `*` (glob in `use`)
 - Comments: `//` line comments (ignored)
 
-### Phase 2 — Parser → AST
+### Phase 2 — Parser → AST ✅ DONE
 Recursive descent parser producing a typed AST.
 
 Key constructs:
