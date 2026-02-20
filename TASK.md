@@ -1,6 +1,6 @@
 # TASK.md — Ren Compiler Implementation
 
-**Status:** Not started  
+**Status:** Phase 1 (Lexer) complete ✅  
 **Language:** Go  
 **Spec:** See `SPEC.md` (v0.1)
 
@@ -40,7 +40,7 @@ ren-lang/
 
 ## Implementation Phases
 
-### Phase 1 — Lexer
+### Phase 1 — Lexer ✅ DONE
 Tokenize `.ren` source into a flat token stream.
 
 Tokens to handle:
